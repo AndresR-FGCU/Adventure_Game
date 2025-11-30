@@ -7,11 +7,13 @@ class Vehicle:
         self.inventory = []
 
     def describe(self):
+        print("---")
         print(f"Vehicle: {self.name}")
         print(f"Storage Capacity: {self.storage_cap}")
         print(f"Fuel Capacity: {self.fuel_cap}")
         print(f"Current Fuel: {self.fuel_curr}")
         print(f"Inventory: {self.inventory}")
+        print("---")
 
     def add_item(self,item):
         if len(self.inventory) < self.storage_cap:

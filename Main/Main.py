@@ -1,7 +1,9 @@
 from Vehicle import Truck, Sedan, Motorcycle
-from game_items import *
 from type_func import twpw
-
+from Items import Item, Gas
+from Locations import Location
+from game_locations import (bank,gas_station_1,gas_station_2,gas_station_3,grocery_store,house_1,house_2,
+                            house_3,house_4,jewelry_store,pawn_shop,restaurant_1,restaurant_2)
 
 twpw("Welcome to an adventure car game!")
 vehicle = [Truck(), Sedan(), Motorcycle()]

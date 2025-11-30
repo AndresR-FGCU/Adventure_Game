@@ -1,6 +1,6 @@
 import random as rand
 
-class Locations:
+class Location:
     def __init__(self, name,description,loot_table):
         self.name = name
         self.description = description
