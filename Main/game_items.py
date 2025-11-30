@@ -1,4 +1,4 @@
-from Items import Item
+from Items import Item, Gas
 
 cash = Item("Cash", "A remnant of the old world.", 100)
 gold = Item("Gold", "Ooooo, Shiny!", 1000)
@@ -30,3 +30,4 @@ rusty_zippo = Item("Rusty Zippo", "Some wastelander ought to fix this.", 15)
 hatchet = Item("Hatchet", "Its no Stormbreaker but it'll do.", 50)
 jar_of_dirt = Item("Jar of Dirt", "Ive got a jar of dirt, Ive got a jar of dirt!", 9)
 perfectly_preserved_pie = Item("Perfectly Preserved Pie", "We've all tried to get this once.", 100)
+gas = Gas

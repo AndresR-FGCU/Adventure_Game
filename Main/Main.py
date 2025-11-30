@@ -1,4 +1,5 @@
 from Vehicle import Truck, Sedan, Motorcycle
+from game_items import *
 from type_func import twpw
 
 
