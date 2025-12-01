@@ -18,8 +18,7 @@ class Gas(Item):
         self.amount = amount
 
     def use(self,vehicle):
-        if hasattr(vehicle,"fuel"):
-            vehicle.fuel += self.amount
-            print(f"{vehicle.name} refueled by {self.amount} units. Fuel: {vehicle.fuel}")
+        if hasattr(vehicle,"refuel"):
+            vehicle.refuel(self.amount)
         else:
             print(f"{vehicle.name} cant be refueled.")

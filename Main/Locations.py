@@ -6,6 +6,9 @@ class Location:
         self.description = description
         self.loot_table = loot_table
 
+    def __repr__(self):
+        return f"{self.name}, ({self.description})"
+
     def describe(self):
         print( f"{self.name}: {self.description}")
 
