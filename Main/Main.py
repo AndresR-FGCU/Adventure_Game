@@ -35,7 +35,6 @@ locations_scenarios_4 = {
 def calculate_inventory_value(vehicle):
     total = 0
     for item in vehicle.inventory:
-        # Tries to get .value if the object has it, else uses 0
         total += getattr(item, "value", 0)
     return total
 
