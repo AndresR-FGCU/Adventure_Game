@@ -24,9 +24,3 @@ class Location:
     @staticmethod
     def random_location(locations):
         return rand.choice(locations)
-
-
-
-
-
-
